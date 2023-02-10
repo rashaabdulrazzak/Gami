@@ -2,8 +2,8 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <div className="container my-8 px-4 mx-auto">
-      <section className="mb-32 text-gray-800 text-center">
+    <div className="container my-4 px-4 mx-auto">
+      <section className="mb-2 text-gray-800 text-center">
         <div className="flex justify-center flex-wrap items-center lg:px-6 md:px-6 sm:px-0 py-12 max-w-6xl mx-auto">
           <div className="md:w-[67%] lg:w-[50%] justify-center md:mt-12 lg:mt-0 mb-12 lg:mb-0">
             <div className="block rounded-lg px-3 py-12 sm:px-0 ">
@@ -58,8 +58,7 @@ export default function ContactUs() {
           <div class="w-full md:w-[67%] lg:w-[50%]  justify-center items-center md:mb-12 lg:mb-16">
             <div class="shadow-lg rounded-lg google-map-code sm:ml-0 lg:ml-20 md:ml-20">
               <iframe
-                src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                frameborder="0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d385396.60596766684!2d29.01217945!3d41.0053215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1sen!2str!4v1676053077263!5m2!1sen!2str"
                 style={{ border: 0 }}
                 allowfullscreen=""
                 aria-hidden="false"

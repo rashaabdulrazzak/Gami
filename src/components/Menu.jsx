@@ -17,7 +17,7 @@ export default function Menu() {
           <button
             data-collapse-toggle="navbar-cta"
             type="button"
-            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+            class="hidden items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
             aria-controls="navbar-cta"
             aria-expanded="false"
           >
@@ -69,7 +69,7 @@ export default function Menu() {
             </li>
             <li>
               <a
-                href="#!"
+                href="contactus"
                 class="block py-2 pl-3 pr-4 font-normal text-gray-900 rounded md:hover:bg-transparent md:hover:text-gray-300 md:p-0  "
               >
                 Contact Us

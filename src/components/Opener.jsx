@@ -6,8 +6,8 @@ export default function Opener() {
       className="section mx-auto lg:flex lg:my-16 text-left lg:text-left justify-center items-center bg-gray-100"
       role="main"
     >
-      <div className="sm:px-4 lg:px-16 md:px-16 sm:py-16">
-        <h1 className="mt-6 lg:text-5xl lg:w-3/5 sm:w-full sm:text-4xl font-headline tracking-tight font-bold text-gray-800 leading-10 sm:leading-normal">
+      <div className="sm:px-2 px-2 lg:px-16 md:px-16 sm:py-16">
+        <h1 className="mt-6 lg:text-5xl lg:w-3/5 sm:w-full text-4xl sm:text-4xl font-headline tracking-tight font-bold text-gray-800 leading-10 sm:leading-normal">
           Lorem Ipsum Dolor Sit Amet <br />
         </h1>
         <p
@@ -22,14 +22,14 @@ export default function Opener() {
           role="button"
         >
           <a
-            className="flex sm:flex-col sm:mr-8 lg:mr-4 md:mr-4 md:flex-row lg:flex-row justify-center
+            className="flex sm:flex-col mr-8 sm:mr-8 lg:mr-4 md:mr-4 md:flex-row lg:flex-row justify-center
              w-[161px] h-[52px] items-center gap-4 border px-3.5 
              bg-gray-50
              py-7 rounded-lg border-solid border-white font-medium text-white shadow
               hover:bg-gray-200 hover:shadow-lg transform transition hover:-translate-y-1 focus:ring-2
                focus:ring-gray-200 ring-offset-2 outline-none focus:bg-gray-200 focus:shadow-lg
                active:bg-gray-300"
-            href="#!"
+            href="/"
           >
             <p className=" not-italic font-semibold text-base leading-6 text-gray-800">
               Explore GAMI
@@ -38,10 +38,10 @@ export default function Opener() {
           <a
             className="flex sm:flex-col md:flex-row lg:flex-row justify-center items-center gap-2.5 
             w-[132px] h-[52px] border px-3.5 py-7 border-solid 
-            border-white lg:ml-4 sm:ml-0 sm:mt-2.5 lg:mt-0 
-            font-medium rounded-md text-green-200 bg-gray-50 
+            border-white  ml-1 lg:ml-4 sm:ml-0  sm:mt-2.5 lg:mt-0 
+            font-medium rounded-md text-gray-200 bg-gray-50 
             shadow hover:shadow-lg hover:bg-gray-200 transform transition 
-            hover:-translate-y-1 focus:ring-2 focus:ring-green-200 ring-offset-2
+            hover:-translate-y-1 focus:ring-2 focus:ring-gray-200 ring-offset-2
             outline-none focus:shadow-lg"
             href="#!"
           >
@@ -51,9 +51,9 @@ export default function Opener() {
           </a>
         </div>
       </div>
-      <div className="lg:mr-40 sm:ml-16 sm:px-48 lg:px-0" role="img">
+      <div className="lg:mr-40 mt-8 sm:mt-8 px-8 sm:px-20 lg:px-0" role="img">
         <svg
-          className="object-cover object-center lg:w-96 rounded-md hover:shadow-lg transform transition hover:-translate-y-2"
+          className="object-cover object-center lg:w-96 w-full rounded-md hover:shadow-lg transform transition hover:-translate-y-2"
           width="262"
           height="335"
           viewBox="0 0 262 335"
