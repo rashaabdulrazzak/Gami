@@ -5,7 +5,7 @@ import SERVICES from "../data/service";
 const Services = () => {
   return (
     <>
-      <div className="section text-center w-full h-full bg-gray-300 pt-10">
+      <div className="section text-center w-full h-full bg-gray-300 pt-10 pb-10">
         <h1 className="text-7xl leading-none font-semibold text-center text-gray-800 mt-5 mb-10">
           What We Do
         </h1>

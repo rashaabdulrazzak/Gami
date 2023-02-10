@@ -55,8 +55,8 @@ function App() {
           </p>
         </div>
         <main className="flex justify-center items-center">
-          <div className="container w-[90vw] grid gap-[1rem_2rem] mx-auto my-20 px-8 py-10">
-            <section className="info">
+          <div className="container w-[90vw] grid gap-[1rem_2rem] mx-auto my-16 lg:px-8 md:px-8 px-2 py-6">
+            <section className="lg:px-32 md:px-32 px-1">
               {questions.map((question) => (
                 <Question key={question.id} {...question} />
               ))}
@@ -64,7 +64,7 @@ function App() {
           </div>
         </main>
       </div>
-      <ContactUs />
+      {/* <ContactUs /> */}
 
       <Footer />
     </>

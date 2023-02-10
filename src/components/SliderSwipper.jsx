@@ -32,7 +32,7 @@ export default function SliderSwipper() {
       slidesPerView={2}
       centeredSlides={false}
       slidesPerGroupSkip={2}
-      spaceBetween={10}
+      spaceBetween={20}
       grabCursor={true}
       keyboard={{
         enabled: true,

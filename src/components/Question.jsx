@@ -7,7 +7,7 @@ const Question = ({ title, info }) => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="rounded mb-0.5 px-6 border-1 border-solid border-white">
+    <div className="rounded mb-0.5 px-0.5 lg:px-6 md:px-6 border-1 border-solid border-white">
       <header className="justify-between flex	items-center bg-gray-200 h-16 pl-5">
         <h4
           onClick={() => setExpanded(!expanded)}

@@ -3,12 +3,13 @@ import Logo from "../icons/Logo";
 export default function Footer() {
   return (
     <>
-      <footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 ">
+      <footer class="p-4 bg-gray-100  md:px-6 md:py-8 ">
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 mx-20" />
-        <div class="sm:flex sm:items-center sm:justify-between">
+
+        <div class="sm:flex flex flex-row justify-between sm:items-center sm:justify-between">
           <a
-            href="https://flowbite.com/"
-            class="flex items-center mb-4 sm:mb-0"
+            href="https://gamiworld.io/"
+            class="flex items-center mb-4 sm:mb-0 sm:flex-col"
           >
             <Logo />
           </a>
@@ -34,7 +35,7 @@ export default function Footer() {
               </a>
             </li>
           </ul> */}
-          <ul className="flex flex-row items-start gap-[60px] p-0">
+          <ul className="flex-row items-start gap-[60px] p-0  hidden lg:flex md:flex sm:hidden">
             <li>
               <a
                 href="#!"
@@ -68,7 +69,7 @@ export default function Footer() {
               </a>
             </li>
           </ul>
-          <div className="mb-6 flex justify-end items-end">
+          <div className="mb-6 flex flex-row md:flex-row lg:flex-row sm:flex-row justify-end items-end ">
             <a
               href="#!"
               className="text-dark hover:bg-primary hover:border-primary mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-[#E5E5E5] hover:text-white sm:mr-4 lg:mr-3 xl:mr-4"
@@ -144,9 +145,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
+        <span class="flex justify-center text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023{" "}
-          <a href="https://gami.io/" class="hover:underline">
+          <a href="https://gamiworld.io/" class="hover:underline">
             GAMI.
           </a>
           All Rights Reserved.
